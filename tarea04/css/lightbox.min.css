@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0;
+	background:#80CBCA;
+	
+}
+.modal{
+	position:fixed;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img_modal{
+	width: 80%;
+}
+
+.modal_boton{
+	width: 50px;
+	height: 50px;
+	color: #ffff;
+	font-weight: bold;
+	font-family: monospace;
+	line-height: 50px;
+	text-align: center;
+	background: red;
+	border-radius: 50px;
+	cursor: pointer;
+	
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	
+}
